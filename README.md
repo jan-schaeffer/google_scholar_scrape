@@ -11,3 +11,7 @@ A Python script that scrapes Google Scholar profiles for name and domain, guesse
 - Writes verified Emails to a .csv
 - Automatically sleeps to not trip Bot detection
 - Saves already found names, searched for terms in pages in .csv files to allow restarting the script and to not double verify Emails
+
+# Scholar profile page
+
+<img width="1127" alt="scholar profile" src="https://user-images.githubusercontent.com/78418209/182850079-2d914f25-d058-4679-9969-dec037904392.png">
