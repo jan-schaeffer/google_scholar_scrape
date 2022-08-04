@@ -2,7 +2,7 @@
 A Python script that scrapes Google Scholar profiles for name and domain, guesses how they could be combined in an email-address and verifies whether these addresses exists using the isitaralemail API. 
 
 # Features 
-- Navigates the first 100 results pages for a given search term (scholar does not show 100+ pages)
+- Navigates the first 100 results pages for a given search term, limits search results to one year (e.g. 2021-2022) to maximize number of results (scholar does not show 100+ pages)
 - Looks for links to authors' profiles
 - Scrapes name and domain from profile page (see picture below)
 - Automatically removes non-Latin and non-English (ä, ü, ö, ...) characters from the name 
@@ -10,7 +10,7 @@ A Python script that scrapes Google Scholar profiles for name and domain, guesse
 - Sends these guesses to isitaralemail API 
 - Writes verified Emails to a .csv
 - Automatically sleeps to not trip Bot detection
-- Saves already found names, searched for terms in pages in .csv files to allow restarting the script and to not double verify Emails
+- Saves already found names, searched for terms and pages in pages in .csv files to allow restarting the script and to not double verify Emails
 
 # Scholar profile page
 
